@@ -1,0 +1,194 @@
+body{
+    background-color: white;
+}
+h1,h2,h3,h5,h6{
+    letter-spacing: 0.5mm;
+}
+b{
+    letter-spacing: 0.5mm;
+}
+.container{
+    border: 1px solid black;
+    width: 1024px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#header{
+    margin: 0px;
+    height: 200px;
+    background-color: #4323b4;
+    padding: 50px 100px 50px 100px;
+}
+#childHeader{
+    top: 50%;
+    left: 50%;
+    height: 150px;
+    width: 500px; 
+    padding: 2%; 
+    margin: auto;
+    background: white;
+    text-align: center;
+}
+#internalHeader{
+    height: 142px;
+    width: 490px;
+    border-style: solid;
+    border-color: black;
+}
+em{
+    color: gray;
+    font-size: 14pt;
+}
+#section-profile{
+    height: 350px;
+    color: gray;
+
+}
+#profile-description{
+    top: 50%;
+    left: 50%;
+    padding-top: 50px;
+    padding-left: 55px;
+    width: 25%;
+    float: left;
+}
+#education-details{
+    top: 50%;
+    left: 50%;
+    padding-top: 50px;
+    width: 33%;
+    float: left;
+}
+div h2{
+    text-align: center;
+    color: black;
+}
+#profile-image{
+    width: 25%;
+    padding: 70px;
+    float: left;
+}
+img{
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    border-radius: 50%;
+}
+#profile-contact{
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    float: left;
+    color: black;
+}
+.heading5{
+      text-align: center;
+  }
+.education-column {
+    color: grey;
+    float: left;
+    width: 25%;
+    padding-left: 55px;
+}
+.skills-column {
+    float: left;
+    width: 25%;
+    color: gray;
+    text-align: left;
+}
+.expertise-column {
+    float: left;
+    width: 25%;
+    color: gray;
+}
+.heading {
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.skills-heading {
+    background-color: #F0CEA0;
+    padding: 6px;
+    color: black;
+    text-align: center;
+}
+.line {
+    float: left;
+    width: 55px;
+    padding-top: 22px;
+    color: black;
+}
+hr {
+    border: 1px solid black;
+}
+.line2 {
+    float: left;
+    width: 300px;
+    padding-top: 52px;
+    color: black;
+    padding-left: 55px;
+}
+.line3 {
+    float: left;
+    width: 330px;
+    padding-top: 52px;
+    color: black;
+}
+.experience-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.experience-column{
+    float: left;
+    padding-top: 30px;
+    width: 25%;
+}
+.container:after{
+    content: "";
+	display: table;
+    clear: both;
+}
+.row1{
+    height: 150px;
+    margin-left: 55px;
+    color: gray;
+}
+.interior-designer{
+    width: 75%;
+    float: left;
+}
+.interior-design-img{
+    margin-top:10px; 
+    padding-top:10px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    background-color: #4323b4;
+    float: left;
+}
+
+.row2{
+    padding-top:50px;
+    margin-left: 55px;
+    color: gray;
+    margin-bottom: 50px;
+    padding-bottom: 30px;  
+}
+.graphic-artist{
+    width: 75%;
+    float: left;
+    margin-bottom: 30px;
+}
+.graphic-artist-img{
+    margin-top:10px; 
+    padding-top:10px;
+    width: 150px;
+    height: 150px;
+    color: white; 
+    text-align: center;
+    background-color: #4323b4;
+    float: left;
+}
