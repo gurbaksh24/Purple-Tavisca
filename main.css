@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #FFFFFF;
     margin: 0px;
 }
 
@@ -32,7 +32,7 @@ nav > ul > li > a {
 
 .active {
     background-color: #3A7DB7;
-    color: white;
+    color: #FFFFFF;
 }
 
 .search-box {
@@ -46,7 +46,7 @@ nav > ul > li > a {
 
 .section-heading {
     width: 57%;
-    background-color: white;
+    background-color: #FFFFFF;
     opacity: 0.8;
     color: #3A7DB7;
     height: 10px;
@@ -92,7 +92,7 @@ nav > ul > li > a {
 }
 
 .inside-tablink {
-    color: white;
+    color: #FFFFFF;
     float: left;
     border: none;
     outline: none;
@@ -113,7 +113,7 @@ nav > ul > li > a {
     color: #44494E;
 }
 .tablink:hover {
-    background-color: #777;
+    background-color: #777777;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -122,7 +122,7 @@ nav > ul > li > a {
     color: #44494E;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 60px 20px;
     height: 100%;
 }
@@ -130,21 +130,21 @@ nav > ul > li > a {
     background-color: #FFFFFF;
 }
 .active-tab {
-    background-color: white;
-    color: #777;
+    background-color: #FFFFFF;
+    color: #777777;
 }
 .active-trip {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    color: #777;
+    background-color: #FFFFFF;
+    color: #777777;
     justify-content: center;
     /* padding-top: 14px; */
     border-style: solid;
     border-color: #44494E;
 }
 .top-nav {
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 .my-ltinerary {
@@ -155,7 +155,7 @@ nav > ul > li > a {
     padding-left: 45px;
     padding-top: 34px;
     padding-right: 20px;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none
 }
 
@@ -165,7 +165,7 @@ nav > ul > li > a {
     font-size: 1em;
     position: relative;
     bottom: 20px;
-    color: gray;
+    color: #605451;
     text-align: right;
 }
 
@@ -208,6 +208,31 @@ footer {
     margin-top: 30px;   
     margin-bottom: 30px;
     margin-left: 15%;
+    width: 70%;
+    height: 180px;
+    background-image: url("lvnb_banner.jpg");
+}
+.inner-banner {
+    background-color: #3C8CC2;
+    opacity: 0.8;
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: 10;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 126px;
+}
+.banner-text {
+    float: left;
+}
+.banner-link {
+    color: #FFFFFF;
+    float: right;
+    margin-top:10px;
+    margin-right: 10px;
+    font-size: 10pt;
 }
 .lasvegas-ad {
     width: 82%;
@@ -227,13 +252,13 @@ footer {
 .left-nav > ul > li > a {
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .left-nav > ul {
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .line {
@@ -276,7 +301,7 @@ footer {
 .right-nav > ul {
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 /*New Changes*/
@@ -285,7 +310,7 @@ input[type=text]{
     margin: 8px 0;
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
     resize: vertical;
 }
@@ -294,7 +319,7 @@ input[type=date]{
     margin: 8px 0;
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
     resize: vertical;
 }
@@ -303,12 +328,12 @@ input[list="adults"],input[list="youths"],input[list="children"]{
     margin: 8px 0;
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
     resize: vertical;
 }
 input[type=text]:focus {
-    border: 1px solid #555;
+    border: 1px solid #555555;
 }
 .form-one{
 display: inline-flex;
@@ -344,7 +369,7 @@ margin: 0.5em;
 }
 .filter-result {
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: #808080;
     font-size: 16px;
     padding-bottom: 15px;
     margin-top: 30px;
@@ -381,7 +406,7 @@ input[type=search]{
     justify-content: flex-end;
 }
 .filter-result-tab {
-    background-color:#3A7DB7;;
+    background-color:#605451;
     color: white;
     border: none;
     display: inline-block;
@@ -394,10 +419,12 @@ input[type=search]{
     width: 25px;
     height: 20px;
 }
-
+.active-result {
+    background-color: #3A7DB7;
+}
 table {
     font-family: Arial, Helvetica, sans-serif;
-    color: #808080;
+    color: #605451;
     width: 82%;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -413,7 +440,7 @@ th {
     font-size: 12px;
     padding-bottom: 26px;
     padding-top: 15px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #605451;
     padding-left: 10px;
 
 
@@ -422,7 +449,7 @@ th {
 td {
     font-size: 12px;
     padding-bottom: 15px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #605451;
     padding-left: 10px;
     padding-top: 15px;
 }
@@ -463,14 +490,14 @@ a:link {
     left: 0;
     height: 15px;
     width: 15px;
-    background-color: #eee;
+    background-color: #EEEEEE;
     float: right;
 }
 
 /* On mouse-over, add a grey background color */
 
 .container:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: #CCCCCC;
 }
 
 /* When the checkbox is checked, add a blue background */
