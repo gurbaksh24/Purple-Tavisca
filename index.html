@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="top-nav">
+            <a href="index.html" class="logo"><img src="logo.PNG" alt="logo"></a>
+            <a href="index.html" class="my-ltinerary">My ltinerary ></a>
+            <h5 class="name">John Smith<br>500,000 Points</h5>
+            <ul class="bottom-nav">
+                <li><a href="flights.html">Rewards Home |</a></li>
+                <li><a href="hotels.html">Profile |</a></li>
+                <li><a href="cars.html">My Trips |</a></li>
+                <li><a href="activities.html">Sign out</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a class="active" href="flights.html">Flights</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="cruisspecials.html">Cruise Specials</a></li>
+            <li><a href="deals.html">Deals</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section class="search-box">
+                <div class="section-heading">
+                    <h2 class="sec-heading-one">Spread your wings and discover new destinations!</h2>
+                    <a class="sec-link" href="offers.html">View Offers</a>
+                </div>
+                <div class="search-tab">
+                    <button class="tablink active-tab"><img class="icon" src="plane.png" alt="Flights">Flights</button>
+                    <button class="tablink"><img class="icon" src="Hotel.png" alt="hotel logo">Hotels</button>
+                    <button class="tablink"><img class="icon" src="Car.png" alt="hotel logo">Cars</button>
+                    <button class="tablink"><img class="icon" src="Activity.png" alt="hotel logo">Activity</button>
+
+                    <div class="search-heading">
+                        <h3>Search for Flights</h3>
+                    </div>
+                    <div class="flights">
+                        <button class="inside-tablink active-trip">Round Trip</button>
+                        <button class="inside-tablink">One Way</button>
+                        <button class="inside-tablink">Multiple Destination</button>
+                        <hr class="line">
+
+                        <form>
+                            <div class="form-one">
+                                <p>
+                                    <label>Departure City</label>
+                                    <br>
+                                    <input class="form-place" type="text" placeholder="Airport or City">
+                                </p>
+                                <p>
+                                    <label>Destination City</label>
+                                    <br>
+                                    <input class="form-place" type="text" placeholder="Airport or City">
+                                </p>
+                                <p>
+                                    <label>Departure Date</label>
+                                    <br>
+                                    <input class="form-place" type="date">
+                                </p>
+                                <p>
+                                    <label>Return Date</label>
+                                    <br>
+                                    <input class="form-place" type="date">
+                                </p>
+                            </div>
+                            <div class="form-one">
+                                <p>
+                                    <label>Adults (18+)</label>
+                                    <br>
+                                    <input list="adults" placeholder="1">
+                                    <datalist id="adults">
+                                        <option value="1">
+                                            <option value="2">
+                                                <option value="3">
+                                                    <option value="4">
+                                                        <option value="5">
+                                                            <option value="6">
+                                                                <option value="7">
+                                                                    <option value="8">
+                                                                        <option value="9">
+                                    </datalist>
+                                </p>
+                                <p>
+                                    <label>Youths (12-17)</label>
+                                    <br>
+                                    <input list="youths" placeholder="0">
+                                    <datalist id="youths">
+                                        <option value="1">
+                                            <option value="2">
+                                                <option value="3">
+                                                    <option value="4">
+                                                        <option value="5">
+                                                            <option value="6">
+                                    </datalist>
+                                </p>
+                                <p>
+                                    <label>Children (0-11)</label>
+                                    <br>
+                                    <input list="children" placeholder="0">
+                                    <datalist id="children">
+                                        <option value="1">
+                                            <option value="2">
+                                                <option value="3">
+                                                    <option value="4">
+                                                        <option value="5">
+                                                            <option value="6">
+                                    </datalist>
+                                </p>
+                            </div>
+                            <div class>
+                                <span class="age-info">Age Information</span>
+                            </div>
+
+                            <div class="more-options">
+                                <span class="more-info">More Options++</span>
+                            </div>
+
+                            <div class="btn-submit">
+                                <button class="search-btn">SEARCH FLIGHTS</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="ads">
+                <img class="ad-inner" src="A1.png" alt="Car rentals anywhere in the world">
+                <img class="ad-inner" src="A2.png" alt="Upto 500$ free onboard spend">
+                <img class="ad-inner" src="A3.png" alt="Singapore Airlines">
+            </section>
+            <section class="filter-table">
+                <div class="deal-finder">
+                    Deal Finder
+                </div>
+                <div class="deal-search">
+                    <input class="search-input" type="search" placeholder="Find offer by destination or items">
+                    <button class="search-button">SEARCH</button>
+                </div>
+                <div class="filter-result">
+                    Filter Results
+                </div>
+                <div class="results">
+                    <div class="filter-result-options">
+                        <button class="filter-result-tab active-result"><img class="filter-img" src="Hotel.png" alt="Hotel"> HOTEL <span class="container">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                        </span></button>
+                        <button class="filter-result-tab"><img class="filter-img" src="Car.png" alt="Car"> CAR <span class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                        </span></button>
+                        <button class="filter-result-tab"><img class="filter-img" src="cruise.png" alt="Cruise"> CRUISE <span class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                        </span></button>
+                    </div>
+                </div>
+                <div>
+                    <table>
+
+                        <tr>
+                            <th>Destination</th>
+                            <th>Name</th>
+                            <th>Valid Through</th>
+                            <th>Offer</th>
+                        </tr>
+                        <tr>
+                            <td>Fort Myers Beach,US</td>
+                            <td><a href="#">Wyndham Garden Fort Myers Beach</a></td>
+                            <td>Jul 30,2018</td>
+                            <td><a href="#">Save Up To 20%</a></td>
+                        </tr>
+                        <tr>
+                            <td>Oriando,US</td>
+                            <td><a href="#">WorldQuest Oriando Resort</a></td>
+                            <td>Aug 10,2018</td>
+                            <td><a href="#">Save Up To 25%</a></td>
+                        </tr>
+                        <tr>
+                            <td>New York,US</td>
+                            <td><a href="#">Sheraton New York Time Square hotel</a></td>
+                            <td>Aug 30,2018</td>
+                            <td><a href="#">Save Up To 25%</a></td>
+                        </tr>
+                        <tr>
+                            <td>New York City,US</td>
+                            <td><a href="#">Courtyard By Marriott New York Manhattan/times Square</a></td>
+                            <td>Aug 30,2018</td>
+                            <td><a href="#">Save Up To 25%</a></td>
+                        </tr>
+                        <tr>
+                            <td>Puerto vallarta,MX</td>
+                            <td><a href="#">The Westin Resort & Spa Puerto Vallarta</a></td>
+                            <td>Aug 30,2018</td>
+                            <td><a href="#">Save Up To 40%</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <a class="link-load-more" href="#">Load More</a>
+            </section>
+            <section class="banner">
+                <div class="banner-img">
+                    <div class="inner-banner">
+                    <p class="banner-text">Play all day and all night! Great Las Vegas hotel <br>deals</p>
+                    <a class="banner-link" href="#">View Offers</a>
+                </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="left-nav">
+            <ul>
+                <li class="link-head">
+                    Main Navigation
+                </li>
+                <hr class="line-bottom"><br><br>
+                <li><a class="bottom-link" href="index.html">Flights</a></li>
+                <li><a class="bottom-link" href="index.html">Hotels</a></li>
+                <li><a class="bottom-link" href="index.html">Cars</a></li>
+                <li><a class="bottom-link" href="index.html">Activities</a></li>
+                <li><a class="bottom-link" href="index.html">Cruises</a></li>
+                <li><a class="bottom-link" href="index.html">Deals</a></li>
+            </ul>
+
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li class="link-head">
+                    Other Links
+                </li>
+                <hr class="line-bottom"><br><br>
+                <li><a class="bottom-link" href="index.html">Frequently Asked Questions</a></li>
+                <li><a class="bottom-link" href="index.html">Seller of Travel</a></li>
+                <li><a class="bottom-link" href="index.html">Website Terms of Use</a></li>
+                <li><a class="bottom-link" href="index.html">Travel Terms & Conditions</a></li>
+                <li><a class="bottom-link" href="index.html">Privacy Policy</a></li>
+                <li><a class="bottom-link" href="index.html">Deals</a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+
+</html>

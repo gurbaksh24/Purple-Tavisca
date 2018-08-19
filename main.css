@@ -1,0 +1,548 @@
+/*@charset 'utf-8'*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav > ul > li > a {
+    color: #3A7DB7;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #3A7DB7;
+    color: #FFFFFF;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    height: 727px;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.section-heading {
+    width: 57%;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    color: #3A7DB7;
+    height: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.sec-heading-one {
+    font-size: 18pt;
+    font-weight: normal;
+    align-self: center;
+}
+
+.sec-link {
+    align-self: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #3A7DB7;
+}
+
+.search-tab {
+    width: 64%;
+    background-color: #FFFFFF;
+    align-self: center;
+    margin: 15px;
+}
+
+/* Style tab links */
+
+.tablink {
+    background-color: #193B58;
+    color: white;
+    float: left;
+    border: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.inside-tablink {
+    color: #FFFFFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 17px;
+    width: 20%;
+    background-color: #3A7DB7;
+    margin: 2px;
+    margin-bottom: 0px;
+}
+.search-heading{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 60%;
+    font-size: 18px;
+    color: #44494E;
+}
+.tablink:hover {
+    background-color: #777777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.flights {
+    color: #44494E;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    padding: 60px 20px;
+    height: 100%;
+}
+.search-heading{
+    background-color: #FFFFFF;
+}
+.active-tab {
+    background-color: #FFFFFF;
+    color: #777777;
+}
+.active-trip {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    color: #777777;
+    justify-content: center;
+    /* padding-top: 14px; */
+    border-style: solid;
+    border-color: #44494E;
+}
+.top-nav {
+    border: 1px solid #000000;
+}
+
+.my-ltinerary {
+    float: right;
+    background-color: #3A7DB7;
+    text-align: center;
+    padding-bottom: 34px;
+    padding-left: 45px;
+    padding-top: 34px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+.name {
+    float: right;
+    padding-right: 20px;
+    font-size: 1em;
+    position: relative;
+    bottom: 20px;
+    color: #605451;
+    text-align: right;
+}
+
+.bottom-nav {
+    float: right;
+    padding-top: 65px;
+    position: relative;
+    left: 110px;
+}
+
+.bottom-nav > li > a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #3A7DB7;
+}
+
+
+footer {
+    background-color: #3A7DB7;
+    height: 250px;
+    display: flex;
+
+}
+.ads{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ads > img {
+    width: 230px;
+    height: 180px;
+    margin-right: 20px;
+}
+.banner-img {
+    margin-top: 30px;   
+    margin-bottom: 30px;
+    margin-left: 15%;
+    width: 70%;
+    height: 180px;
+    background-image: url("lvnb_banner.jpg");
+}
+.inner-banner {
+    background-color: #3C8CC2;
+    opacity: 0.8;
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: 10;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 126px;
+}
+.banner-text {
+    float: left;
+}
+.banner-link {
+    color: #FFFFFF;
+    float: right;
+    margin-top:10px;
+    margin-right: 10px;
+    font-size: 10pt;
+}
+.lasvegas-ad {
+    width: 82%;
+}
+.left-nav {
+    padding: inherit;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.icon {
+    width: 25px;
+    height: 20px;
+}
+.form-place{
+    padding-left: 0px;
+}
+.left-nav > ul > li > a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.left-nav > ul {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.line {
+    margin: 0px;  
+    width: 100%;  
+}
+.line-bottom {
+    width: 200px;
+}
+.form-data{
+    display: flex;
+}
+
+.form-label-row-one{
+    display:flex;
+}
+
+.form-field-row-one{
+    display:flex;
+}
+.form-label-row-two{
+    display:flex;
+}
+.form-field-row-two{
+    display:flex;
+}
+
+.right-nav {
+    padding: inherit;
+    padding-top: 20px;
+    padding-left: 450px;
+}
+
+.right-nav > ul > li > a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-nav > ul {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*New Changes*/
+input[type=text]{
+    padding: 9px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=date]{
+    padding: 6px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[list="adults"],input[list="youths"],input[list="children"]{
+    padding: 9px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=text]:focus {
+    border: 1px solid #555555;
+}
+.form-one{
+display: inline-flex;
+flex-wrap: wrap;
+}
+p{
+margin: 0.5em;
+}
+.age-info{
+    margin-left: 7px;
+    font-size: 10pt;
+    color: #3A7DB7;
+}
+.more-info{
+    margin-left: 7px;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #3A7DB7;
+}
+.more-options{
+    margin-top: 20px;
+}
+.search-btn{
+    /* position: relative;
+    left: 970px;
+    top: 50px; */
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: #C96D1D;
+    color: #FFFFFF;
+
+}
+.filter-result {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.deal-finder{
+    /* margin-left: 350px; */
+    border: solid;
+    background: #44494E;
+    color:#fff;
+    width: 80%;
+    padding: 8px
+}
+.deal-search{
+    /* margin-left: 350px; */
+    margin-top: 5px;
+    display: flex;
+}
+.search-input {
+    width: 62%;
+}
+input[type=search]{
+    padding: 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.search-button{
+    padding: 9px 50px;
+    background:#3A7DB7; 
+    color:#fff;
+    border:none;
+    margin: 20px;
+    justify-content: flex-end;
+}
+.filter-result-tab {
+    background-color:#605451;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 17%;
+}
+.filter-img {
+    float: left;
+    width: 25px;
+    height: 20px;
+}
+.active-result {
+    background-color: #3A7DB7;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #605451;
+    width: 82%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.link-load-more{
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    color: #3A7DB7;
+}
+th {
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 26px;
+    padding-top: 15px;
+    border-bottom: 1px solid #605451;
+    padding-left: 10px;
+
+
+}
+
+td {
+    font-size: 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #605451;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*Checkbox*/
+
+/* The container */
+
+.container {
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: right;
+    padding-right: 20px;
+}
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #EEEEEE;
+    float: right;
+}
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input ~ .checkmark {
+    background-color: #CCCCCC;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.container input:checked ~ .checkmark{
+    background-color:#3A7DB7;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.filter-table{
+    margin-left: 15%;
+}
+
+.ad-inner{
+    padding: 0;
+}
+.bottom-link {
+    font-weight: normal;
+    font-size: 10pt;
+}
+.link-head {
+    font-weight: bold;
+}
