@@ -19,25 +19,33 @@
 		</div>
 	</header>
 	<main>
+			
 		<section class="section-profile" aria-label="PROFILE SECTION">
 			<div class="profile-description">
 				<h3 class="heading-profile" aria-label="PROFILE">PROFILE</h3>
 				<p class="paragraph-profile">Aim to work in a challenging work environment where I can utilize my expertise in technical
-					skills, towards the development and implementation of the new ideas, contributing to growth of the organization. </p>
+					skills, towards the development <button id="readMoreBtn">Read More</button></p>
 			</div>
-
-			<div class="profile-image" aria-label="PROFILE PICTURE">
-				<img src="img_avatar.png" alt="Profile">
+			<div id="modalDescription" class="modal">
+				<div class="modal-data">
+				  <span class="close">&times;</span>
+				  <p>Aim to work in a challenging work environment where I can utilize my expertise in technical skills, towards the development and implementation of the new ideas, contributing to growth of the organization.</p>
+				</div>
+				</div>		
 			</div>
-
+				<div class="profile-image" aria-label="PROFILE PICTURE">
+					<img src="img_avatar.png" alt="Profile">
+				</div>
+		
 			<div class="profile-contact" aria-label="ADDRESS">
-
+		
 				<h5 class="heading-address">Viman Nagar <img src="Home.png" alt="address" class="icon-address"></h5>
 				<h5 class="heading-email">purple@tavisca.com <img src="message.png" alt="email" class="icon-address"></h5>
-
+		
 				<h5 class="heading-site">Tavisca.com <img src="pc.png" alt="address" class="icon-address"></h5>
 				<h5 class="heading-phone">9876543210 <img src="phone.png" alt="address" class="icon-address"></h5>
 			</div>
+		
 		</section>
 		<section aria-label="TECHNICAL DETAILS">
 			<article class="section-qualification">
@@ -131,6 +139,6 @@
 			</div>
 		</section>
 	</main>
+	<script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

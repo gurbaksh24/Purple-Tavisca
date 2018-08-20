@@ -29,7 +29,7 @@ header{
     background: white;
     text-align: center;
 }
-.internal-header{
+.internalHeader{
     height: 93%;
     width: 98%;
     border-style: solid;
@@ -40,9 +40,43 @@ em{
     font-size: 14pt;
 }
 
-
-
 /***Section-Profile***/
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 300px; 
+    left: 8;
+    top: 0;
+    width: 55%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #000000; 
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-data {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .section-profile {
 	display: flex;
 	flex-wrap: wrap;
@@ -265,7 +299,7 @@ hr {
 }
 
 @media screen and (max-width: 594px) {
-	.internal-header > h1{
+	.internalHeader > h1{
 		font-size: 16pt;
 	}
 	.profile-image{
